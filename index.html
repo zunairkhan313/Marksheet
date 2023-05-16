@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+<div class="head">
+    <h1>Marksheet</h1>
+</div>
+<center>
+    <br>
+<div class="input1">
+<input id="new1" class="za" type="text" placeholder="Student's Name"><br>
+<input id="new2" class="za" type="text" placeholder="Father's Name"><br>
+<input id="new3" class="za" type="text" placeholder="Age"><br>
+<div class="sub">Subject</div>
+<input id="new4" class="za" type="text" placeholder="Chemistry"><br>
+<input id="new5" class="za" type="text" placeholder="Physics"><br>
+<input id="new6" class="za" type="text" placeholder="Mathematics"><br>
+<input id="new7" class="za" type="text" placeholder="English"><br>
+<input id="new8" class="za" type="text" placeholder="Computer Science"><br>
+<input id="new9" class="za" type="text" placeholder="Pak Studies">
+</div>
+</center>
+<button onclick="submit()" class="Submit">Submit</button>
+
+
+<script>
+
+    function submit(){
+    var name = document.getElementById("new1").value
+    var name1 = document.getElementById("new2").value
+    var name2 = +document.getElementById("new3").value
+    var name3 = +document.getElementById("new4").value
+    var name4 = +document.getElementById("new5").value
+    var name5 = +document.getElementById("new6").value
+    var name6 = +document.getElementById("new7").value
+    var name7 = +document.getElementById("new8").value
+    var name8 = +document.getElementById("new9").value
+    document.write(name);
+    document.write("<br>");
+    document.write("<br>");
+    document.write(name1);
+    document.write("<br>");
+    document.write("<br>");
+    document.write(name2);
+    document.write("<br>");
+    document.write("<br>");
+    document.write(name3);
+    document.write("<br>");
+    document.write("<br>");
+    document.write(name4);
+    document.write("<br>");
+    document.write("<br>");
+    document.write(name5);
+    document.write("<br>");
+    document.write("<br>");
+    document.write(name6);
+    document.write("<br>");
+    document.write("<br>");
+    document.write(name7);
+    document.write("<br>");
+    document.write("<br>");
+    document.write(name8);
+    document.write("<br>");
+    document.write("<br>");
+    var allName = (name4+name5+name6+name7+name8);
+    document.write("Obtained Marks : ");
+    document.write(allName);
+    document.write("<br>");
+    document.write("<br>");
+    document.write("Total Marks : ");
+    document.write("600.");
+    document.write("<br>");
+    document.write("<br>");
+    var perc = (allName*100) / 600;
+    var round =Math.round(perc);
+    var fix =(round.toFixed(2));
+    document.write("Percentage : ");
+    document.write(fix);
+    }
+</script>
+</body>
+</html>

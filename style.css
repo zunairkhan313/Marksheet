@@ -1,0 +1,36 @@
+.head{
+    top: 0;
+    color: red;
+    text-align: center;
+    background-color:burlywood;
+    font-size: 20px;
+    margin-top: -20px;
+    position: sticky;
+}
+.za{
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 500px;
+    border-radius: 10px;
+}
+.sub{
+    text-align: center;
+    border: 1px solid black;
+    width: 510px;
+    padding: 7px;
+    margin-bottom: 10px;
+    background-color: burlywood;
+    color: red;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.Submit{
+    background-color: burlywood;
+    color: red;
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    align-items: end;
+    margin-left: 690px;
+}
